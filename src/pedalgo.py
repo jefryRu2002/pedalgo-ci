@@ -123,7 +123,7 @@ class ServicioReservas:
         # finalizar() sobre la misma reserva recalcula y "recobra" el
         # viaje -- esta es la reproduccion en vivo del defecto DEF-002
         # para la demo de GitHub Actions (romper la prueba a proposito).
-       if reserva["finalizada"]:
+        if reserva["finalizada"]:
            return reserva["monto_cobrado"]
         # -------------------------------------------------------------
 
